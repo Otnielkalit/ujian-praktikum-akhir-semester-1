@@ -1,0 +1,126 @@
+
+    /* Nama    : Otniel Simanungkalit
+    NIM        : 11421037 */
+
+
+body {
+    padding: 0;
+    background-image: url(bg3.jpg);
+    background-attachment: fixed;
+    font-size: larger;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    background-color: white;
+}
+
+.main {
+    display: flex;
+}
+
+.nama h1 {
+    font-size: 25px;
+    text-align: center ;
+}
+h1 {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+h3 {
+    font-weight: lighter;
+    text-align: center;
+}
+.kiri {
+    width: 400px;
+    margin: auto;
+}
+
+.kiri1 {
+    height: 200px;
+    padding: 20px;
+}
+
+.logo {
+    height: 230px;
+}
+#logo {
+    width: 200px;
+    height: 200px;
+    line-height: 50%;
+    margin: auto;
+}
+
+#foto {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.nama {
+    margin: auto;
+}
+
+.kanan {
+    width: 600px;
+    background-color: grey;
+    color: white;
+    padding: 20px;
+}
+
+.kanan2 {
+    height: 200px;
+}
+#head {
+    margin: 30px 0 0 0;
+    padding: 20px;
+    display: flex;
+}
+#head1 {
+    font-size: 50px;
+    margin: 10px 5px 0 10px;
+}
+
+#head2 {
+    margin: 10px 5px 0 10px;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.kontak {
+    list-style-type: none;
+    padding: 0;
+}
+
+.kanan2 .kontak {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+li {
+    padding: 5px;
+}
+.footer {
+    margin: 0;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>BERANDA</title>
+         <link rel="stylesheet" type="text/css" href="BERANDA/cssberanda.css">
+         <link rel="stylesheet" type="text/css" href="BERANDA/cssslide.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    </head>
+    <body>
+        <input type="checkbox" id="check">
+        <div class="sidebar">
+            <ul>
+                <li><a href="BERANDA.html">BERANDA</a></li>
+                <li><a href="TEMPAT WISATA.html">TEMPAT WISATA</a></li>
+                <li><a href="My Profile.html">PROFILE DEVELOPER</a></li> 
+            </ul>
+        </div>
+     <header>
+        <div class="container">
+            <h1><a href="">LAKE TOBA</a></h1>
+                <ul>
+                    <li><a href="BERANDA.html">BERANDA</a></li>
+                    <li><a href="TEMPAT WISATA.html">TEMPAT WISATA</a></li>
+                    <li><a href="My Profile.html">PROFILE DEVELOPER</a></li> 
+                </ul>
+                <label for="check" class="mobile-menu"><i style="color: blanchedalmond;" class="fas fa-bars fa-2x"></i></label>
+            </div>
+        </header> 
+
+        <video class="bgvid" autoplay muted loop id="myVideo" >
+            <source src="BERANDA/bgvid.mp4" type="video/mp4">
+        </video>
+
+        <section class="banner">
+            <div class="container">
+                <div class="banner-left">
+                    <img src="BERANDA/laketoba.png">
+                    <h2>Welcome....<br>
+                    <span class="mengetik"></span></h2>
+                    <p>Terimakasih telah berkunjung ke website CV saya OTNIEL SIMANUNGKALIT</p>
+                </div> 
+            </div> 
+            <br><br>
+            <div align="center" >
+                <audio controls style="width: 70%;">
+                    <source src="BERANDA/Musik Batak.mp3">
+                </audio> 
+                <h4 style="color: blanchedalmond; font-size: 30px;">Listen - MUSIK BATAK</h4><br><br>
+            </div>    
+        </section>
+ 
+            </div>
+         
+    </body>
+    <script src="BERANDA/scriptcv.js"></script>
+    <script type="text/javascript">
+        var slides = document.querySelectorAll('#slides .slide');
+        var currentSlide = 0;
+        var slideInterval = setInterval(nextSlide,2000);
+ 
+        function nextSlide(){
+            slides[currentSlide].className = 'slide';
+            currentSlide = (currentSlide+1)%slides.length;
+            slides[currentSlide].className = 'slide showing';
+        }
+    </script>   
+</html>

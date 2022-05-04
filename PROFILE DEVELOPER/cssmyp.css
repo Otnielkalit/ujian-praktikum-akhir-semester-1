@@ -1,0 +1,19 @@
+ .flex-container {
+      display: flex;
+      /* background-color:rgba(70, 162, 186, .3); */
+      width: 100%;
+      padding: 50px;
+      
+    }
+    
+.flex-container > div {
+      
+      margin: 10px;
+      padding: 10px;
+      font-size: 20px;
+      font-family: monospace;
+      
+    }
+
+img{
+    box-shadow: 0 3px 5px rgb(5, 5, 5);
